@@ -10,7 +10,7 @@ updates:
       interval: daily
   - package-ecosystem: pip
     allow:
-      dependency-types: all
+      - dependency-types: all
     directory: /
     schedule:
       interval: daily
