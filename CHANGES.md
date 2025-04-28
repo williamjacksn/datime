@@ -1,3 +1,10 @@
+# 2025.0
+
+Released 2025-04-28.
+
+* There are no package code changes in this release.
+* Package building and publishing are now managed with `uv`.
+
 # 2023.1
 
 Released 2023-10-20.

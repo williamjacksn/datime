@@ -1,4 +1,4 @@
-__version__ = "2023.1"
+__version__ = "2025.0"
 
 
 def pretty_duration_short(duration_seconds: int) -> str:
