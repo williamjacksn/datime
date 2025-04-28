@@ -9,7 +9,7 @@ Python package with convenience functions for dates, times, and intervals
 Use the function `pretty_duration_short` to convert a whole number of seconds to a string that indicates the number of
 hours, minutes, and seconds in the provided duration.
 
-```python
+```pycon
 >>> import datime
 >>> datime.pretty_duration_short(59)
 '59s'
