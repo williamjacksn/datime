@@ -1,4 +1,4 @@
-__version__ = '2023.1'
+__version__ = "2023.1"
 
 
 def pretty_duration_short(duration_seconds: int) -> str:
@@ -12,9 +12,9 @@ def pretty_duration_short(duration_seconds: int) -> str:
     minutes, seconds = divmod(seconds_remaining, 60)
     parts = []
     if hours > 0:
-        parts.append(f'{hours}h')
-        parts.append(f'{minutes}m')
+        parts.append(f"{hours}h")
+        parts.append(f"{minutes}m")
     elif minutes > 0:
-        parts.append(f'{minutes}m')
-    parts.append(f'{seconds}s')
-    return ''.join(parts)
+        parts.append(f"{minutes}m")
+    parts.append(f"{seconds}s")
+    return "".join(parts)
