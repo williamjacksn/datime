@@ -1,6 +1,3 @@
-__version__ = "2025.0"
-
-
 def pretty_duration_short(duration_seconds: int) -> str:
     """Convert a duration in whole seconds to a string like '1h1m1s'. Durations less than 1 hour return '1m1s', and
     durations less than 1 minute return '1s'.
