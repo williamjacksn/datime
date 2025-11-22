@@ -1,6 +1,6 @@
 [build-system]
 build-backend = "uv_build"
-requires = ["uv_build>=0.7.19,<0.8.0"]
+requires = ["uv-build>=0.9.11,<0.10.0"]
 
 [project]
 name = "datime"
@@ -22,3 +22,12 @@ email = "william@subtlecoolness.com"
 "Homepage" = "https://github.com/williamjacksn/datime"
 "Changes" = "https://github.com/williamjacksn/datime/blob/main/CHANGES.md"
 "Issues" = "https://github.com/williamjacksn/datime/issues"
+
+[dependency-groups]
+dev = [
+    "ruff>=0.14.6",
+    "uv-build>=0.9.11",
+]
+
+[tool.ruff.lint]
+select = ["ANN", "E", "F", "FURB", "I", "PERF", "RUF", "S", "UP"]
