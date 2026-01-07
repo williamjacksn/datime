@@ -1,3 +1,9 @@
+# 2026.0
+
+Released 2026-01-07.
+
+* This release supports Python 3.10 and newer.
+
 # 2025.0
 
 Released 2025-04-28.
