@@ -21,12 +21,12 @@ email = "william@subtlecoolness.com"
 
 [build-system]
 build-backend = "uv_build"
-requires = ["uv-build>=0.9.22,<0.13.0"]
+requires = ["uv-build>=0.13.0,<0.14.0"]
 
 [dependency-groups]
 dev = [
     "ruff>=0.17.0",
-    "uv-build>=0.9.22",
+    "uv-build>=0.13.0",
 ]
 
 [tool.ruff.lint]
